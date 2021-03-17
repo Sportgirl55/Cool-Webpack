@@ -6,9 +6,8 @@ cashe:
   directories:
     - node_modules
 script:
-  - yarn global add codecov -g
-  - yarn test --coverage && codecov
-  - yarn run build
-install:
-  - yarn
+  - npm run global add codecov -g
+  - npm run test --coverage && codecov
+  - npm run build
+
 
