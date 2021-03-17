@@ -10,7 +10,7 @@ import './scss/index.scss';
 
 console.log('Config key:', config.key);
 
-const service = new AppService('Привет, мир!');
+const service = new AppService('Привет, мир!Привееет!!');
 service.log();
 
 render(<App />, document.getElementById('app'));
