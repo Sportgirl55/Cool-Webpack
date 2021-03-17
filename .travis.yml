@@ -9,4 +9,6 @@ script:
   - yarn global add codecov -g
   - yarn test --coverage && codecov
   - yarn run build
+install:
+  - yarn
 
